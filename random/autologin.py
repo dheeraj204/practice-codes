@@ -1,5 +1,5 @@
-audio_file1 = 'C:/Users/dheer/Music/01-White-Noise-10min.wav'
-audio_file2 = 'C:/Users/dheer/Music/One Piece - Epic Battle Theme Rmx  RinGtone.wav'
+audio_file1 = "C:/Users/dheer/Music/01-White-Noise-10min.wav"
+audio_file2 = "C:/Users/dheer/Music/One Piece - Epic Battle Theme Rmx  RinGtone.wav"
 # import numpy as np
 # import scipy.io.wavfile as wav
 # import matplotlib.pyplot as plt

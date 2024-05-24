@@ -12,9 +12,10 @@ from turtle import *
 from random import random
 from freegames import line
 
+
 def draw():
     "Draw maze."
-    color('black')
+    color("black")
     width(5)
 
     for x in range(-200, 200, 40):
@@ -26,6 +27,7 @@ def draw():
 
     update()
 
+
 def tap(x, y):
     "Draw line and dot for screen tap."
     if abs(x) > 198 or abs(y) > 198:
@@ -34,9 +36,10 @@ def tap(x, y):
         down()
 
     width(2)
-    color('red')
+    color("red")
     goto(x, y)
     dot(4)
+
 
 setup(420, 420, 370, 0)
 hideturtle()

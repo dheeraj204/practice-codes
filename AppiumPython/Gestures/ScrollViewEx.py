@@ -4,7 +4,7 @@ for i1 in range(1, N + 1):
     i = i1
     while i > 0:
         r = i % 10
-        A += r ** 3
+        A += r**3
         i //= 10
 
     if A == i1:

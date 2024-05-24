@@ -1,8 +1,6 @@
-
-
 # Creating a Multi-Dimensional List
 # (By Nesting a list inside a List)
-List = [['Geeks1', 'For'] , ['Geeks2']]
+List = [["Geeks1", "For"], ["Geeks2"]]
 
 # accessing an element from the
 # Multi-Dimensional List using

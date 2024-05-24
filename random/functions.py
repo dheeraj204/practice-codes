@@ -1,5 +1,5 @@
 def hello_func():
-    print('2')
+    print("2")
 
 
 hello_func()
@@ -7,7 +7,7 @@ hello_func()
 
 
 def hello():
-    return'wow'
+    return "wow"
 
 
 print(hello())
@@ -16,9 +16,9 @@ print(hello().upper())
 ##
 
 
-def hello(greeting, name='you'):
-    return'{},{}'.format(greeting, name)
+def hello(greeting, name="you"):
+    return "{},{}".format(greeting, name)
 
 
-print(hello('hi', name='corey'))
-'''hgchgchg'''
+print(hello("hi", name="corey"))
+"""hgchgchg"""
